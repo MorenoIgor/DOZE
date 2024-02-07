@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://cr24ufw24latp"]
+
+[ext_resource type="Texture2D" uid="uid://dphflniqf04l7" path="res://icon.svg" id="1_ksy63"]
+[ext_resource type="Script" path="res://tiro.gd" id="1_yject"]
+
+[node name="Tiro" type="CharacterBody2D"]
+script = ExtResource("1_yject")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+scale = Vector2(0.2, 0.2)
+texture = ExtResource("1_ksy63")
